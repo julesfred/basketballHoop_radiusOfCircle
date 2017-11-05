@@ -1,0 +1,220 @@
+body {
+    background-color: #EBF189;
+}
+
+.circleOutput {
+    border-radius: 50%;
+    height: none;
+    width: none;
+    background-color: none;
+    /*Bounce animation*/
+    margin-left: 47.5%;
+    position: fixed;
+    -webkit-animation: bounce 1s infinite;
+    z-index: 50;
+}
+
+@-webkit-keyframes bounce {
+    0%       { bottom: 300px; }
+    25%, 75% { bottom: 480px; }
+    50%      { bottom: 570px; }
+    100%     { bottom: 0;}
+}
+
+.box1 {
+    background-color: #2696CA;
+    height: 100px;
+    width: 300px;
+}
+
+.box2{
+    background-color: #999999;
+    height: 100px;
+    width: 300px;  
+}
+
+.box3 {
+    background-color: rgb(255, 255, 255);
+    height: 175px;
+    width: 275px;
+    position: absolute;
+    top: 6%;
+    left: 4%;
+}
+
+.box4 {
+    position: absolute;
+    background-color: #999999;
+    border: 5px solid #2696CA;
+    z-index: 20;
+    height: 100px;
+    width: 100px;
+    top: 30%;
+    left: 32.5%
+}
+
+.box5 {
+    position: absolute;
+    background-color: #B31A1A;
+    border-radius: 20%;
+    z-index: 61;
+    height: 10px;
+    width: 130px;
+    top: 81%;
+    left: 28.5%;
+}
+
+
+.container {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 40%;
+}
+
+
+   
+
+    
+.net1 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-top-left-radius: 70px;
+    left: 56%;
+    top: 89%; 
+    transform: rotate(-45deg);   
+    z-index: 51;
+}
+
+.net7 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-top-left-radius: 70px;
+    left: 51%;
+    top: 89%; 
+    transform: rotate(-45deg);   
+    z-index: 52;
+}
+.net8 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-top-left-radius: 70px;
+    left: 46%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 53; 
+}
+.net9 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-top-left-radius: 70px;
+    left: 41%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 54; 
+}
+.net10 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-top-left-radius: 70px;
+    left: 36%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 55; 
+}
+
+
+    
+.net2 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom-right-radius: 70px;
+    left: 21%;
+    top: 89%; 
+    transform: rotate(-45deg);   
+    z-index: 56;
+}
+
+.net3 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom-right-radius: 70px;
+    left: 26%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 57; 
+}
+.net4 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom-right-radius: 70px;
+    left: 31%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 58; 
+}
+
+.net5 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom-right-radius: 70px;
+    left: 36%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 59; 
+}
+
+.net6 {
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom-right-radius: 70px;
+    left: 41%;
+    top: 89%; 
+    transform: rotate(-45deg);  
+    z-index: 60; 
+}
+
+.userRadius{
+    
+}
+
+
+/*.net1 {
+    position: absolute;
+    height: 50px;
+    width: 3px;
+    z-index: 65;
+    background-color: #000000;
+    transform: rotate(45deg);
+}
+*/
