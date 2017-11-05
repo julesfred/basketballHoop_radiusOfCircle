@@ -1,5 +1,5 @@
 body {
-    background-color: #EBF189;
+    background-color: rgb(0, 63, 165);
 }
 
 .circleOutput {
@@ -22,19 +22,19 @@ body {
 }
 
 .box1 {
-    background-color: #2696CA;
+    background-color: #041E42;
     height: 100px;
     width: 300px;
 }
 
 .box2{
-    background-color: #999999;
+    background-color: #FFFFFF;
     height: 100px;
     width: 300px;  
 }
 
 .box3 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(211, 211, 211);
     height: 175px;
     width: 275px;
     position: absolute;
@@ -44,8 +44,8 @@ body {
 
 .box4 {
     position: absolute;
-    background-color: #999999;
-    border: 5px solid #2696CA;
+    background-color: rgba(153, 153, 153, 0.48);
+    border: 5px solid #041E42;
     z-index: 20;
     height: 100px;
     width: 100px;
@@ -55,13 +55,13 @@ body {
 
 .box5 {
     position: absolute;
-    background-color: #B31A1A;
+    background-color: #D50032;
     border-radius: 20%;
     z-index: 61;
     height: 10px;
     width: 130px;
     top: 81%;
-    left: 28.5%;
+    left: 29%;
 }
 
 
@@ -205,7 +205,36 @@ body {
 }
 
 .userRadius{
-    
+    border: 3px solid #D50032;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 20px;
+    width: 75px;
+    height: 50px;
+    font-size: 35px;
+    color: #D50032
+}
+
+.submitRadius {
+    background-color: #FFFFFF;
+    color: #D50032;
+    border-radius:4px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.outputText {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 300px;
+    font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
 }
 
 
